@@ -31,3 +31,15 @@ function mostrarListaAmigos() {
   elementoHtml.innerHTML = crearListaHTML();
 }
 
+function sorteoAmigo() {
+  let numeroMaximo = amigos.length;
+  let amigoSorteado = "";
+  let numeroGenerado = Math.floor(Math.random() * numeroMaximo);
+  amigoSorteado = amigos[numeroGenerado];
+  return amigoSorteado;
+} 
+
+function mostrarAmigoSorteado() {
+  let resultado = document.getElementById("resultado");
+  resultado.innerHTML = sorteoAmigo();
+}
