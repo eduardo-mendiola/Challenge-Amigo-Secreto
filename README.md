@@ -1,7 +1,5 @@
 # Challenge-Amigo-Secreto
 
-# Amigo Secreto
-
 **Amigo Secreto** es una aplicación sencilla diseñada para organizar sorteos aleatorios entre amigos de forma rápida y divertida. Este sistema permite a los usuarios ingresar nombres en una lista, para luego seleccionar de manera aleatoria quién será el "amigo secreto".
 
 ## Funcionalidades
